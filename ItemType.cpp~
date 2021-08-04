@@ -1,0 +1,16 @@
+#include "ItemType.h"
+
+using namespace std;
+
+ItemType();
+
+Comparison ItemType::compareTo(ItemType item){
+    if (value < item.value){
+        return LESS;
+    } else if (value > item.value){
+        return GREATER;
+    } else if (value == item.value){
+        return EQUAL;
+    }
+}
+

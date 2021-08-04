@@ -1,0 +1,14 @@
+#ifndef SORTEDLINKEDLIST_H
+#define SORTEDLINKEDLIST_H
+#include "ListNode.h"
+#include "ItemType.h"
+
+class SortedLinkedList{
+public:
+    SortedLinkedList();
+private:
+    int length;
+    ListNode *head;
+    ListNode *currentPos;
+};
+#endif
